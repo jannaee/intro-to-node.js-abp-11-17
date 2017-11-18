@@ -60,7 +60,7 @@ Node also introduces the concepts of remotely hosted "packages" that can be incl
 
 A Node Package is a prebuilt piece of functionality that another Node program can inherit. Node Packages are like superpowers for your code and application, allowing you to grab some functionality someone has already built and add it to your application.
 
-Every Node application ships with a file `package.json` that can contain dependencies that the application requires. These dependencies are install via the Node Package Manager, `npm`, and the compatible interfaces such as `yarn` by Facebook.
+Every Node application ships with a file `package.json` that can contain dependencies that the application requires. These dependencies are installed via the Node Package Manager, `npm`, and the compatible interfaces such as `yarn` by Facebook.
 
 Once required, a Node package can be loaded into your application via the `require` pattern.
 
