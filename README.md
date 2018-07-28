@@ -18,7 +18,7 @@ Node.js allows Javascript to function much like other multi-purpose languages, c
 
 ## `module.export`, `require` and Common.js
 
-One of the amazing thing that the Node ecosystem introduces to Javascript is the ability to share state and scope across files. Whereas in the browser we deliver essentially a single massive playload of the entire frontend Javascrip application logic, on a backend application, we must be able to separate our program's logic and components across multiple files, each with a single concern and responsibility.
+One of the amazing things that the Node ecosystem introduces to Javascript is the ability to share state and scope across files. Whereas in the browser we deliver essentially a single massive playload of the entire front-end Javascript application logic, on a backend application, we must be able to separate our program's logic and components across multiple files, each with a single concern and responsibility.
 
 Following the Common.js pattern, Node allows files to declare scopes they wish to export and allow other files to load as though they were defined locally. While each file can maintain its own private scope, through `module.exports` and `require`, you can define an object or class in one file and load it into the scope of another file safely. 
 
@@ -60,7 +60,7 @@ Node also introduces the concepts of remotely hosted "packages" that can be incl
 
 A Node Package is a prebuilt piece of functionality that another Node program can inherit. Node Packages are like superpowers for your code and application, allowing you to grab some functionality someone has already built and add it to your application.
 
-Every Node application ships with a file `package.json` that can contain dependencies that the application requires. These dependencies are install via the Node Package Manager, `npm`, and the compatible interfaces such as `yarn` by Facebook.
+Every Node application ships with a file `package.json` that can contain dependencies that the application requires. These dependencies are installed via the Node Package Manager, `npm`, and the compatible interfaces such as `yarn` by Facebook.
 
 Once required, a Node package can be loaded into your application via the `require` pattern.
 
